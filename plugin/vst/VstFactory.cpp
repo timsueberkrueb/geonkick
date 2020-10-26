@@ -34,7 +34,7 @@
 #else
 #define gkickFileDescription	gkickPluginName" Geonkick"
 #endif
-#define gkickCompanyName	"Geontime"
+#define gkickCompanyName	"Iurie Nistor"
 #define gkickCompanyWeb		"http://iuriepage.wordpress.com"
 #define gkickCompanyEmail	"mailto:iur.nistor@gmail.com"
 #define gkickLegalCopyright	"Copyright (C) 2020 Iurie Nistor"

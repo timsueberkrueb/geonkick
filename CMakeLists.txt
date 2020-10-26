@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.7)
 
-project(geonkick VERSION 2.4.0)
+project(geonkick VERSION 3.0.0)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 include(GNUInstallDirs)
@@ -11,7 +11,7 @@ option(GKICK_PLUGIN "Enable build for plugin" ON)
 if (GKICK_PLUGIN)
   option(GKICK_PLUGIN_LV2 "Enable build LV2 plugin" ON)
   if (GKICK_VST_SDK_PATH)
-    option(GKICK_PLUGIN_VST "Enable build VST plugin" ON)
+    option(GKICK_PLUGIN_VST "Enable build VST plugin" OFF)
   else(GKICK_VST_SDK_PATH)
     option(GKICK_PLUGIN_VST "Enable build VST plugin" OFF)
   endif (GKICK_VST_SDK_PATH)
