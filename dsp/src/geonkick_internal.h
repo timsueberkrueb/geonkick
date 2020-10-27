@@ -35,8 +35,8 @@
 #define GEONKICK_SAMPLE_RATE 48000
 
 /* Kick maximum length in seconds. */
-#define GEONKICK_MAX_LENGTH 4.0f
-#define GEONKICK_MAX_KICK_BUFFER_SIZE  (4 * GEONKICK_SAMPLE_RATE)
+#define GEONKICK_MAX_LENGTH 20
+#define GEONKICK_MAX_KICK_BUFFER_SIZE  (GEONKICK_MAX_LENGTH * GEONKICK_SAMPLE_RATE)
 
 struct gkick_worker {
 	/* The worker thread. */
